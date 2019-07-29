@@ -1,10 +1,12 @@
-'use strict';
+"use strict";
 
-const EmberApp = require('ember-cli/lib/broccoli/ember-app');
+const EmberApp = require("ember-cli/lib/broccoli/ember-app");
 
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
-    // Add options here
+    orbit: {
+      package: ["@orbit/indexeddb", "@orbit/indexeddb-bucket", "@orbit/jsonapi"]
+    }
   });
 
   // Use `app.import` to add additional libraries to the generated
