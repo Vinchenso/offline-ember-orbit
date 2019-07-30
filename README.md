@@ -5,6 +5,7 @@
  - [] Log Truncation
  - [] Error Handling
  - [] Offline Status
+ - [] Add service workers to cache static assets
 
 ## Prerequisites
 
