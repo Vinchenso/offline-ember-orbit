@@ -8,6 +8,8 @@ export default Controller.extend({
         type: "message",
         text: this.newMessage
       });
+
+      this.set("newMessage", "");
     }
   }
 });
